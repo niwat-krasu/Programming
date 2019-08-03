@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="AUN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-08-03 09:32:03 PM"/>
+        <attribute name="created" value="QVVOO0RFU0tUT1AtUzU3VTNVRzsyMDE5LTA4LTAzOzA5OjExOjA1IFBNOzI1Nzc="/>
+        <attribute name="edited" value="QVVOO0RFU0tUT1AtUzU3VTNVRzsyMDE5LTA4LTAzOzA5OjMyOjAzIFBNOzE7MjY4Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="FE" type="Real" array="False" size=""/>
+            <declare name="GE" type="Real" array="False" size=""/>
+            <declare name="IC" type="Real" array="False" size=""/>
+            <declare name="CR" type="Real" array="False" size=""/>
+            <assign variable="FE" expression="4"/>
+            <assign variable="GE" expression="4"/>
+            <assign variable="IC" expression="4"/>
+            <assign variable="CR" expression="4"/>
+            <output expression="&quot;-----your score-----&quot;" newline="True"/>
+            <output expression="&quot;Foundation english:&quot;&amp;FE" newline="True"/>
+            <output expression="&quot;Geueral business:&quot;&amp;GE" newline="True"/>
+            <output expression="&quot;Inlroduclion to computer sgstems:&quot;&amp;IC" newline="True"/>
+            <output expression="&quot;Comguter programming:&quot;&amp;CR" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
